@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Triage – Una solución basada en IA</title>
+
+		<meta name="description" content="A framework to make triage simple">
+		<meta name="author" content="Andres Gutierrez">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+			<!-- Slide 1 -->
+
+				<section>
+					<h1>Guane clinical pre-triage </h1>
+					<h3><font color="red">Una Solución basada en aprendizaje profundo </font> </h3>
+					<p>
+						<small>Por <a href="https://scholar.google.es/citations?user=MKru6aAAAAAJ&hl=es&citsig=AMstHGQWXyDnGzKnYvXKnYV0AFZdgseoaw">Andrés F. Gutierrez (MSc,  physics)</a> & <a href="http://35.225.43.111/">guane enterprises</a></small>
+					</p>
+				</section>
+
+
+
+			<!-- Slide 2 -->
+
+				<section data-transition="slide" data-background="#0e0220" data-background-transition="zoom">
+				
+				
+				<h2><p> En <font color="yellow">Co</font> <font color="blue">lom</font> <font color="red">bia</font> </h2>
+					<ul> 
+						<li> <p class="fragment fade-in">7 millones de personas llegan a la sala de emergencias por año.</p> </li>
+						<li> <p class="fragment fade-in">8000 camas de emergencias en todo el país.</p></li>
+						<li><p class="fragment fade-in"> <font color="red"> El 75% de los casos no son urgencias reales.</font></p> </li>
+						<li><p class="fragment fade-in">Las salas de emergencias ven superada su capacidad en un 8%.</p>
+						</li>
+					</ul>
+					</section>
+
+					<section data-background-size="1200px 800px" data-background="https://www.emergencymedicinekenya.org/wp-content/uploads/gdwpm_images/who-emergency-care~0B4b0gepgKiV-Z1dXcTBqaTF2aGM.png">
+						
+					</section>
+
+				<!--  Slide 3 -->
+	
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<h3>Nuestro objetivo: <font color="yellow"> Pre-asistencia, mayor eficiencia</font></h3>
+					<p class="fragment"> <font color="blue"> Tomar las palabras que usa la gente para describir sus síntomas </font></p> <p class="fragment">y transformarlas en información médica relevante que</p>
+						<p  class="fragment"> <font color="red"> impulse la atención de la sala de emergencias.</font></p>
+				</section>
+					
+				<!-- Example of nested vertical slides -->
+
+				<section data-background-size="1500px 850px" data-background="slide1.png">						
+				</section>
+ 
+ 				<!-- Example of nested vertical slides -->
+
+				<section>
+					<h2>Nuestra solución</h2>
+					<p>
+						La aplicación recibe <font color="red"> lenguaje coloquial</font> para la sintomatología del paciente, y   traduce el texto al estandar ICD10, clasificando <font color="red">  sin asistencia humana  </font>, la emergencia según el Emergency Severity Index ESI.  
+					</p>
+				
+				</section>
+
+ 				<!-- Example of nested vertical slides -->
+
+				<section data-background-size="1450px 800px" data-background="Triage3.png">				
+				</section>
+
+			    <!-- Example of nested vertical slides -->
+
+
+				<section  data-transition="slide" data-background="#4d7e65" data-background-transition="zoom" >
+					<h2>Triage basado en AI</h2>
+					<ul>
+						<li>Optimización de ingreso de pacientes y tiempo de espera en los departamentos de emergencia</li>
+						<li>Clasificación basada en miles de casos reales: Primer filtro que ayudará a reducir errorres humanos</li>
+						<li>Implementado para arrojar resultados según estándares internacionales: ICD10 & ESI </li>
+					</ul>
+				</section>
+
+				<section style="text-align: left;" data-background-transition="zoom">
+					<h1>Adenda:<font color="red">Sentiment analysis over social networks</font></h1>					
+				</section>
+
+				<section data-background-size="1300px 800px" data-background="Triage4.png">				
+				</section>
+
+
+
+				<section data-background-size="1300px 800px" data-background="grafo2.png">				
+				</section>
+
+				<section data-background-size="1300px 800px" data-background="grafo1.png">				
+				</section>
+
+			
+				
+
+				<section style="text-align: left;" data-background-transition="zoom">
+					<h1>¡Gracias!</h1>					
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
